@@ -110,3 +110,21 @@ h4 span{
     padding: 6px 38px;
     box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.2);
 }
+.preferences2-buttons button{
+    border-style: 1px solid;
+    border-color: #FFB700;
+    font-weight: 600;
+    padding: 6px 38px;
+    margin: 10px;
+}
+.preferences2-buttons .width{
+    width: 340px;
+}
+.highlight, .next {
+    box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.2);
+    border-style: none;
+    background-color: #FFB700;
+}
+.outline{
+    background-color: white;
+}
