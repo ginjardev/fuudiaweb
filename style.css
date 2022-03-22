@@ -107,12 +107,14 @@ h4 span{
     font-size: 19px;
     margin-bottom: 25px;
 }
+.welcome-text2{
+    margin-bottom: 8px;
+}
 .paragraph{
     font-size: 12px;
     margin-bottom: 40px;
 }
 .paragraph2{
-    font-size: 12px;
     margin-bottom: 20px;
 }
 .preferences-text1{
