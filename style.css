@@ -427,3 +427,37 @@ textarea{
 .share-recipe p{
     margin-left: 19px;
 }
+.upload{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.upload-pic{
+    height: 100px;
+    width: 140px;
+    position: relative;
+}
+.upload-pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.no-pic{
+    background-color: grey;
+    border-radius: 30px;
+}
+.upload-pic p{
+    position: absolute;
+    top: 37%;
+    left: 20%;
+    font-size: 13px;
+    color: white;
+}
+
+.no-pic .bi-plus-circle{
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    font-size: 21px;
+}
