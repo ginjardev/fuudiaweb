@@ -395,3 +395,29 @@ h4 span{
 .comm-heading span{
     color: #FFB700;
 }
+textarea{
+    height: 250px;
+    border-radius: 30px;
+    width: 100%;
+    background-color: #EEF2F4;
+    padding: 10px;
+    border-style: none;
+}
+.post-btn {
+    margin: 10px;
+}
+.post-btn button{
+    padding: 10px 16px;
+    color: white;
+    background-color: #38B000;
+    border-style: none;
+}
+.share-recipe{
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+.share-recipe p{
+    margin-left: 19px;
+}
