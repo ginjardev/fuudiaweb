@@ -381,11 +381,17 @@ h4 span{
 }
 .community{
     margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .comm-heading span{
     color: #FFB700;
 }
 .comm-container{
-    background-color: aqua;
-    width: inherit;
+    width: 70%;
+}
+.comm-heading span{
+    color: #FFB700;
 }
