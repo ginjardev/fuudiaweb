@@ -195,7 +195,7 @@ h4 span{
     align-items: center;
     justify-content: space-between;
 }
-img {
+.week-plan img {
     width: 100%;
     height: 100%;
     border-radius: 30px;
@@ -326,8 +326,6 @@ img {
     align-items: center;
     height: 120px;
     margin-bottom: 20px;
-}
-.quantity div{
 }
 .product{
     display: flex;
