@@ -29,7 +29,7 @@ nav{
     font-size:x-large;
 }
 .dia{
-    color: green;
+    color: #38B000;
 }
 nav li {
     font-weight: 600;
@@ -72,7 +72,7 @@ h4 span{
     font-size: 50px;
 }
 .hero-text span{
-    color: green;
+    color: #38B000;
     font-weight: bold;
 }
 .hero-text button{
@@ -98,7 +98,7 @@ h4 span{
     margin-bottom: 6px;
 }
 .fuudia-logo span{
-    color: green;
+    color: #38B000;
 }
 .welcome-text{
     font-family: "Nunito", sans-serif;
