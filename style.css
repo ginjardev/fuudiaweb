@@ -371,19 +371,26 @@ h4 span{
 }
 .overview{
     margin-top: 60px;
-    display: none;
+}
+.overview-text{
+    margin-left: 30px;
 }
 .overview-text span{
     color: #FFB700;
 }
+.bi-heart-fill{
+    color: #38B000;
+}
 .meal-view{
-    height: 350px;
-    width: 350px;
+    height: 370px;
+    width: 380px;
+    margin-top: 80px;
 }
 .meal-view img{
     width: 100%;
     height: 100%;
     border-radius: 30px;
+    margin-top: 40px;
 }
 .community{
     margin-top: 60px;
@@ -462,4 +469,84 @@ textarea{
     top: 35%;
     left: 42%;
     font-size: 21px;
+}
+.meal-time{
+    padding: 10px;
+    width: 300px;
+    height: 90px;
+    border-radius: 15px;
+    font-size: 10px;
+    background-color: #F6F6F5;
+}
+.current{
+    border: 2px solid #FFB700;
+}
+.timer{
+    display: flex;
+}
+.mg{
+    margin-right: 10px;
+}
+h5{
+    font-size: small;
+}
+.date-holder{
+    border-bottom: 1px solid #F6F6F5;
+    margin: 15px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 59px;
+    font-size: 10px;
+    margin: 20px;
+    /* background-color: aquamarine; */
+}
+.day-of-week{
+    height: inherit;
+    padding: 8px;
+}
+.wed{
+    background-color: #FFB700;
+    border-radius: 6px;
+}
+.social{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 25px;
+}
+.overview-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.overview-container{
+    width: 70%;
+}
+.meals-plan-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-left: 2px solid #F6F6F5;
+}
+.meals-plan-box div{
+    margin: 10px ;
+}
+.meal-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
