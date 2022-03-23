@@ -76,11 +76,19 @@ h4 span{
     color: #38B000;
     font-weight: bold;
 }
-.hero-text button{
+.hero-button{
+    box-sizing: border-box;
+    position: absolute;
+    top: 520px;
+    left: 200px;
+}
+.hero-button button{
     font-size: medium;
     background-color: #FFB700;
     border-style: none;
-    padding: 12px;
+    padding: 20px;
+    font-size: large;
+    width: 300px;
     font-weight: 600;
 }
 .carousel-item img{
