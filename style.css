@@ -64,6 +64,22 @@ nav{
     align-items: center;
     width: 25%;
 }
+.navdiv3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+}
+.navdiv3 .bi-person-circle{
+    font-size: 32px;
+}
+.navdiv3 button{
+    border-style: none;
+    background-color: #FFB700;
+    padding: 8px 14px;
+    font-weight: 600;
+    box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.1);
+}
 .navdiv2 button{
     border-style: none;
     background-color: #FFB700;
@@ -266,7 +282,7 @@ nav{
     left: 5%
 }
 .btn-div{
-    margin: 50px;
+    margin: 70px;
     width: 91%;
     display: flex;
     align-items: center;
@@ -430,6 +446,7 @@ nav{
 }
 .community{
     margin-top: 60px;
+    margin-bottom: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -440,6 +457,7 @@ nav{
 }
 .comm-container{
     width: 70%;
+    margin-bottom: 100px;
 }
 .comm-heading span{
     color: #FFB700;
@@ -460,6 +478,7 @@ textarea{
     color: white;
     background-color: #38B000;
     border-style: none;
+    margin: 10px;
 }
 .share-recipe{
     margin: 10px;
