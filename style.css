@@ -20,46 +20,10 @@ nav{
     /* width: 100%; */
     
 }
-/* .nav-links{
-    width: 75%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.nav-links h4{
-    font-size:x-large;
-} */
 .dia{
     color: #38B000;
 }
-nav li {
-    font-weight: 600;
-}
-li{
-    list-style: none;
-    font-size: 14px;
-}
-h4 span{
-    font-weight: bold;
-}
-.nav-btn{
-    border-style: none;
-    font-size: 14px;
-}
-.nav-buttons{
-    border-style: none;
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-    width: 18%;
-    font-size: 14px;
-}
-.nav-buttons button{
-    background-color: #FFB700;
-    font-weight: 600;
-    padding: 11px;
-    box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.1);
-}
+
 .main{
     position: relative;
 }
@@ -84,7 +48,7 @@ h4 span{
     justify-content: space-between;
     align-items: center;
     width: 70%;
-    font-weight: bold;
+    font-weight: 600;
 }
 .navdiv1{
     width: 60%;
@@ -101,12 +65,9 @@ h4 span{
 .navdiv2 button{
     border-style: none;
     background-color: #FFB700;
-    padding: 7px 12px;
-    font-weight: 500;
+    padding: 8px 14px;
+    font-weight: 600;
     box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.1);
-}
-.nav-link2{
-    color:#000;
 }
 .navdiv1 a{
     color: #000 !important;
